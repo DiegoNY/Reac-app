@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Reac-app/static/css/main.19a7e386.css",
+    "main.js": "/Reac-app/static/js/main.c18721df.js",
+    "static/js/787.4eab6a7f.chunk.js": "/Reac-app/static/js/787.4eab6a7f.chunk.js",
+    "index.html": "/Reac-app/index.html",
+    "main.19a7e386.css.map": "/Reac-app/static/css/main.19a7e386.css.map",
+    "main.c18721df.js.map": "/Reac-app/static/js/main.c18721df.js.map",
+    "787.4eab6a7f.chunk.js.map": "/Reac-app/static/js/787.4eab6a7f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19a7e386.css",
+    "static/js/main.c18721df.js"
+  ]
+}
