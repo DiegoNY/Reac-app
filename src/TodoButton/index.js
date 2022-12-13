@@ -5,7 +5,7 @@ function TodoButton(props) {
 
     const onClickButton = () => {
 
-      props.setOpenModal(!props.openModal);
+      props.setOpenModal( prevState => !prevState );
 
     }
 

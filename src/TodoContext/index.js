@@ -39,6 +39,19 @@ function TareaProvider(props) {
 
     }
 
+    const añadirTarea = (text) => {
+
+        const newTarea = [...todo];
+
+        newTarea.push({
+            completed:false,
+            text
+        })
+        
+        saveTodos(newTarea);
+
+    };
+
     const tareasCompletas = (text) => {
 
         const todoIndex = todo.findIndex(todo => todo.text === text);
@@ -75,6 +88,7 @@ function TareaProvider(props) {
             error,
             totalTodos,
             tareasCompletadas,
+            añadirTarea,
             searchValue,
             setSearchValue,
             tareasCompletas,

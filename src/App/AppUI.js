@@ -6,6 +6,7 @@ import { TodoList } from '../TodoList';
 import { TodoItem } from '../TodoItem';
 import { TodoButton } from '../TodoButton';
 import { Modal } from '../Modal';
+import { TodoForm } from '../TodoForm';
 
 function AppUI() {
 
@@ -51,9 +52,9 @@ function AppUI() {
                      <Modal>
 
                      {!!openModal && (
-     
-                         <p>{buscarTodasTareas[0]?.text}</p>
-     
+                        
+                        <TodoForm/>
+                        
                      )}
      
                  </Modal>
@@ -61,7 +62,6 @@ function AppUI() {
            
             <TodoButton 
             setOpenModal={setOpenModal}
-            openModal={openModal}
             />
 
         </React.Fragment>
