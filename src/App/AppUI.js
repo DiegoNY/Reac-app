@@ -47,17 +47,21 @@ function AppUI() {
 
             </TodoList>
 
-            <Modal>
-
                 {!!openModal && (
+                     <Modal>
 
-                    <p>{buscarTodasTareas[0]?.text}</p>
-
+                     {!!openModal && (
+     
+                         <p>{buscarTodasTareas[0]?.text}</p>
+     
+                     )}
+     
+                 </Modal>
                 )}
-
-            </Modal>
+           
             <TodoButton 
             setOpenModal={setOpenModal}
+            openModal={openModal}
             />
 
         </React.Fragment>
